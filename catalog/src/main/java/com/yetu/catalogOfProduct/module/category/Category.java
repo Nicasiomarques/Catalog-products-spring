@@ -11,17 +11,11 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-
-import lombok.EqualsAndHashCode;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-
+@Data
 @Entity
-@Getter
-@Setter
 @NoArgsConstructor
-@EqualsAndHashCode(of = { "id" })
 public class Category implements Serializable {
   public static final Long serialVersionUID = 1L;
 

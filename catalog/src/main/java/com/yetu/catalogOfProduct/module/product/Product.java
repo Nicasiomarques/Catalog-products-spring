@@ -14,18 +14,13 @@ import jakarta.persistence.ManyToMany;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-
-import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+import jakarta.persistence.Id;
+import lombok.Data;
 
+@Data
 @Entity
-@Getter
-@Setter
 @NoArgsConstructor
-@EqualsAndHashCode(of = { "id" })
 public class Product implements Serializable {
   private static final long serialVersionUID = 1L;
 

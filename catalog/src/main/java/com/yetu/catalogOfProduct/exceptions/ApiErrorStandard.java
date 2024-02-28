@@ -3,13 +3,9 @@ package com.yetu.catalogOfProduct.exceptions;
 import java.io.Serializable;
 import java.time.Instant;
 
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter @Setter
-@AllArgsConstructor @NoArgsConstructor
+@Data
 public class ApiErrorStandard implements Serializable {
   public static final Long serialVersionUID = 1L;
 

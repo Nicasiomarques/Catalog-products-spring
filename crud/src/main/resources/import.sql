@@ -1,0 +1,12 @@
+INSERT INTO client (name, bi, income, birth_date, children) VALUES ('John Doe', 'bi1', 50000.0, '2020-01-01T00:00:00Z', 2);
+INSERT INTO client (name, bi, income, birth_date, children) VALUES ('Jane Doe', 'bi2', 75000.0, '1995-05-15T12:30:00Z', 1);
+INSERT INTO client (name, bi, income, birth_date, children) VALUES ('Alice Smith', 'bi3', 60000.0, '1980-08-20T08:45:00Z', 0);
+INSERT INTO client (name, bi, income, birth_date, children) VALUES ('Bob Johnson', 'bi4', 80000.0, '1972-11-10T18:20:00Z', 3);
+INSERT INTO client (name, bi, income, birth_date, children) VALUES ('Eva Davis', 'bi5', 90000.0, '1988-04-05T15:10:00Z', 2);
+INSERT INTO client (name, bi, income, birth_date, children) VALUES ('Michael Brown', 'bi6', 70000.0, '1992-09-25T09:30:00Z', 1);
+INSERT INTO client (name, bi, income, birth_date, children) VALUES ('Olivia Wilson', 'bi7', 55000.0, '2000-03-12T14:45:00Z', 0);
+INSERT INTO client (name, bi, income, birth_date, children) VALUES ('William Taylor', 'bi8', 60000.0, '1985-07-18T11:00:00Z', 2);
+INSERT INTO client (name, bi, income, birth_date, children) VALUES ('Sophia Martinez', 'bi9', 72000.0, '1998-06-30T17:00:00Z', 1);
+INSERT INTO client (name, bi, income, birth_date, children) VALUES ('Liam Anderson', 'bi10', 85000.0, '1977-12-08T20:15:00Z', 3);
+INSERT INTO client (name, bi, income, birth_date, children) VALUES ('Emma Garcia', 'bi11', 95000.0, '1993-04-22T16:30:00Z', 2);
+INSERT INTO client (name, bi, income, birth_date, children) VALUES ('Daniel Rodriguez', 'bi12', 62000.0, '1982-10-05T10:45:00Z', 1);
